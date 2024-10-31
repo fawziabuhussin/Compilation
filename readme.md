@@ -26,3 +26,22 @@ The compiler project is divided into two main assignments and a final project:
 
 ```ocaml
 Code_Generation.compile_and_run_scheme_string "testing/goo" "(+ 2 3)"
+```
+## ⚠️ Important Notes
+
+- Ensure unnecessary debug output is removed to avoid incorrect results.
+- Frequent testing is encouraged to streamline debugging and validation of each component.
+- **Academic Integrity**: This project is intended for educational purposes. All work should be original.
+
+## 📦 Requirements
+
+- **OCaml**: Required for implementing the assignments and the final project.
+- **NASM**: Needed for assembling generated assembly code.
+- **Linux ABI**: Code generation is designed for the Linux ABI, and testing the final project requires an x86-compatible environment.
+
+## 👨‍🏫 Author
+
+This compiler was developed as part of the Compiler Construction course assignments, following guidelines provided by Mayer Goldberg.
+
+---
+
